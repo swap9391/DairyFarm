@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/khate_title" />
+        <item
+            android:id="@+id/nav_account_master"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/khate_master_title" />
+        <item
+            android:id="@+id/nav_member_account"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/member_ac_title" />
+
+        <item
+            android:id="@+id/nav_dairy_reg"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/milk_co_title" />
+
+        <item
+            android:id="@+id/nav_deduction"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/reduction_title" />
+
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/device_master_title" />
+        <item
+            android:id="@+id/nav_milk_collect"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/milk_collect_title" />
+        <item
+            android:id="@+id/nav_milk_retail"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/milk_retail_title" />
+        <item
+            android:id="@+id/nav_prod_pur"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/product_purc_title" />
+
+        <item
+            android:id="@+id/nav_product_sale"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/product_retail_title" />
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>
